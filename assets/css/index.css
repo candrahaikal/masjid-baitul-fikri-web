@@ -1,0 +1,319 @@
+body{
+  font-family: 'Manrope';
+}
+section, footer{
+  max-width: 100vw;
+  padding-top: 80px;
+}
+.sm-container{
+  width: 80%;
+  margin: 0 auto;
+}
+
+/* SECTION HEADER */
+#header{
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 80px;
+  overflow: hidden;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 1px 0 25px rgba(0,0,0,.2);
+}
+#header .sm-container{
+  padding: 20px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo-header-group{
+  color: #2B3947;
+}
+.logo-masjid-main{
+  font-family: 'Philosopher';
+}
+.logo-masjid-description{
+  font-size: 11px;
+}
+#navbar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* flex-basis: 40%; */
+}
+.nav-link{
+  text-decoration: none;
+  font-weight: 500;
+  color:  #840000;
+  font-size: 17px;
+  padding: 70px 40px;
+  transition: .19s ease-in-out;
+}
+.nav-link:hover{
+  background-color: #840000;
+  color:white;
+}
+.nav-link-active{
+  background-color: #840000;
+  color: white;
+}
+.btn-donate{
+  text-decoration: none;
+  padding: 10px 40px;
+  background-color:  #840000;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: .15s ease-in-out;
+}
+.btn-donate:hover{
+  background-color:  #f06d6d;
+}
+/* END SECTION HEADER */
+
+
+/* SECTION HOMEPAGE */
+#homepage{
+  margin-top: 80px;
+  background-image: linear-gradient(to right, rgba(0,0,0,.65), rgba(0,0,0,.0)), url(/assets/mosque-6231915_1920.jpg);
+  background-size: cover;
+  background-position: top;
+  min-height: 100vh;
+  /* margin-top: 500px; */
+}
+.homepage-content{
+  width: 50%;
+  height: auto;
+  margin-top: 120px;
+  background-color: rgb(246, 246, 246);
+  padding: 30px 50px;
+}
+#homepage-title{
+  font-family: 'Philosopher';
+  font-size: 90px;
+  color: #2B3947;
+}
+.paragraph{
+  font-size: 18px;
+}
+/* END SECTION HOMEPAGE */
+
+
+/* SECTION PROFILE */
+#profile{
+  height: auto;
+}
+.section-header-group{
+  /* margin-top: 60px; */
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+.section-title{
+  min-width: 250px;
+  font-family: 'Philosopher';
+  font-size: 35px;
+  color: #2B3947;
+}
+.section-line{
+  width: 90%;
+  height: 1px;
+  background-color: #adb4bc;
+}
+.profile-description{
+  font-size: 18px;
+  text-align: justify;
+  line-height: 30px;
+}
+/* END SECTION PROFILE */
+
+
+/* SECTION EVENTS */
+.events-card-group{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  flex-wrap: wrap;
+  /* background-color: red; */
+}
+.events-card{
+  width: 30%;
+  height: auto;
+  margin: 0 10px 30px 10px;
+  border-radius: 5px;
+  box-shadow: 0px 6px 7px rgba(0,0,0,.2);
+  background-color: white;
+  overflow: hidden;
+}
+.events-card-img{
+  width: 100%;
+  border-radius: 5px 5px 0 0;
+  transition: .25s ease-in-out;
+}
+.events-card-img:hover{
+  transform: scale(1.1);
+}
+.events-date{
+  font-size: 12px;
+  color: #999999;
+  font-weight: 500;
+  padding: 10px 20px;
+}
+.events-title{
+  padding: 0 20px;
+  font-family: 'Philosopher';
+  font-weight: 700;
+  font-size: 23px;
+  color: #2B3947;
+  margin-bottom: 40px;
+}
+/* END SECTION EVENTS */
+
+
+/* SECTION VIDEO */
+#video-masjid .section-title{
+  width: 550px;
+}
+#video-frame{
+  display: flex;
+  justify-content: center;
+}
+/* END SECTION VIDEO */
+
+
+/* FOOTER */
+footer{
+  margin-top: 80px;
+  width: 100%;
+  min-height: 40vh;
+  background-color: #840000;
+  padding: 30px 0;
+  color: white;
+}
+.footer-content{
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+}
+footer .logo-header-group{
+  color: white;
+}
+footer .logo-masjid-main{
+  font-size: 30px;
+}
+footer .logo-masjid-description{
+  font-size: 15px;
+}
+.footer-address{
+  width: 40%;
+}
+.address-detail{
+  margin: 20px 0;
+}
+footer .btn-donate{
+  color: #840000;
+  background-color: white;
+}
+footer .btn-donate:hover{
+  background-color: rgb(170, 170, 170);
+  /* color:#840000; */
+}
+footer .section-line{
+  width: 100%;
+  margin-top: 60px;
+  margin-bottom: 20px;
+}
+#footer-copyright{
+  text-align: center;
+  font-size: 14px;
+}
+/* END FOOTER */
+
+
+
+/* PAGE PROFILE */
+.profile-detail .section-header-group{
+  margin-top: 60px;
+}
+.profile-detail .section-title{
+  width: 550px;
+}
+table{
+  width: 70%;
+} 
+table, table td, table th{
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 10px;
+}
+.table-heading-no{
+  width: 5%;
+}
+.table-heading-nama{
+  width: 40%;
+}
+.table-heading-jabatan{
+  width: 20%;
+}
+table tr td:nth-child(1){
+  text-align: center;
+  padding-left: 0;
+}
+table tr:nth-child(even){
+  background-color: #ebebeb;
+}
+/* END PAGE PROFILE */
+
+
+
+/* PAGE KONTAK */
+#contact .section-header-group{
+  margin-top: 60px;
+}
+/* END PAGE KONTAK */
+
+
+
+/* PAGE DONATION */
+#donation .section-header-group{
+  margin-top: 60px;
+}
+#donation .section-title{
+  width: 400px;
+}
+form{
+  width: 50%;
+  margin-top: 30px;
+}
+.donation-content ul{
+  margin-left: 40px;
+}
+.donation-content ul li{
+  font-size: 18px;
+}
+.donation-content input, textarea{
+  display: block;
+  width: 100%;
+  padding: 10px;
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: 500;
+  margin-bottom: 20px;
+  margin-top: 5px;
+}
+.donation-content textarea{
+  resize: none;
+  margin-bottom: 50px;
+}
+.donation-content label{
+  font-size: 18px;
+  font-weight: 800;
+}
+#bukti-transfer{
+  border: 1px solid rgb(88, 88, 88);
+}
+/* END PAGE DONATION */
